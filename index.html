@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LcinoCare — Therapy for Your Mac</title>
+  <meta name="description" content="LcinoCare is a free, open-source, native macOS care app. Find hidden junk, visualize your storage, uninstall apps cleanly, and keep your Mac fast — private, honest, and safe by design." />
+  <meta property="og:title" content="LcinoCare — Therapy for Your Mac" />
+  <meta property="og:description" content="The free, private, native Mac cleaner. Trash-only safety, zero telemetry, no subscription. Ever." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://care.lcino.com/" />
+  <meta property="og:image" content="https://care.lcino.com/assets/screens/smart-results.png" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="bg-orbs" aria-hidden="true">
+    <span class="orb orb-a"></span>
+    <span class="orb orb-b"></span>
+    <span class="orb orb-c"></span>
+  </div>
+
+  <!-- ── Nav ─────────────────────────────────────────────── -->
+  <header class="nav" id="top">
+    <a class="nav-brand" href="#top">
+      <img src="assets/img/logo.svg" alt="" width="26" height="26" />
+      <span>Lcino<b>Care</b></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#showcase">Showcase</a>
+      <a href="#features">Features</a>
+      <a href="#safety">Safety</a>
+      <a href="#compare">Compare</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" data-dl href="#">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.3 12.9c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.8-.8-3-.8-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.3 2.9 2.3 1.2 0 1.6-.7 3-.7 1.4 0 1.8.8 3 .7 1.2 0 2-1.1 2.8-2.2.9-1.3 1.3-2.5 1.3-2.6-.1 0-2.5-1-2.5-3.9zM14.1 5.3c.6-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1.1 0 2.2-.6 2.8-1.4z"/></svg>
+      Download for Mac
+    </a>
+  </header>
+
+  <!-- ── Hero ────────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero-copy">
+      <div class="kicker reveal">A LCINO product</div>
+      <h1 class="reveal">Therapy for<br />your Mac.</h1>
+      <p class="hero-sub reveal">LcinoCare finds the hidden junk, guards what matters, and keeps your Mac
+        feeling new — <b>private, honest, and free forever</b>. A native macOS app,
+        built with love. Not another web wrapper.</p>
+      <div class="hero-cta reveal">
+        <a class="btn btn-primary btn-lg" data-dl href="#">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.3 12.9c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.8-.8-3-.8-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.3 2.9 2.3 1.2 0 1.6-.7 3-.7 1.4 0 1.8.8 3 .7 1.2 0 2-1.1 2.8-2.2.9-1.3 1.3-2.5 1.3-2.6-.1 0-2.5-1-2.5-3.9zM14.1 5.3c.6-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1.1 0 2.2-.6 2.8-1.4z"/></svg>
+          Download for Mac
+        </a>
+        <a class="btn btn-ghost btn-lg" href="#showcase">See it in action ↓</a>
+      </div>
+      <div class="hero-meta reveal">Version 1.4.0 &nbsp;·&nbsp; macOS 13 or later &nbsp;·&nbsp; Apple Silicon (M-series) &nbsp;·&nbsp; 124 MB</div>
+      <div class="hero-badges reveal">
+        <span class="badge">Free forever</span>
+        <span class="badge">Open source · MIT</span>
+        <span class="badge">No account · no telemetry</span>
+      </div>
+    </div>
+
+    <div class="hero-stage reveal">
+      <div class="tilt-wrap" id="hero-tilt">
+        <div class="mac-window tilt-window">
+          <div class="mac-titlebar"><i></i><i></i><i></i><span>LcinoCare</span></div>
+          <img src="assets/screens/smart-results.png" alt="LcinoCare Smart Care screen with scan results and the floating Run button" />
+        </div>
+      </div>
+      <div class="hero-float chip-1">🧹 30.9 GB of junk found</div>
+      <div class="hero-float chip-2">🛡️ 8 zones protected</div>
+      <div class="hero-float chip-3">💾 Trash-only deletion</div>
+    </div>
+  </section>
+
+  <div class="stat-strip reveal">
+    <div class="stat"><b>9</b><span>real tools included</span></div>
+    <div class="stat"><b>0</b><span>bytes of telemetry</span></div>
+    <div class="stat"><b>2</b><span>themes, dark &amp; light</span></div>
+    <div class="stat"><b>$0</b><span>today &amp; forever</span></div>
+  </div>
+
+  <!-- ── Showcase ────────────────────────────────────────── -->
+  <section class="section" id="showcase">
+    <div class="section-head reveal">
+      <div class="kicker">Interactive demo</div>
+      <h2>One app. Every kind of care.</h2>
+      <p>Click through the real interface — these are live screenshots of LcinoCare 1.4.0,
+        not mockups. Every module carries its own color, personality, and purpose.</p>
+    </div>
+
+    <div class="showcase reveal">
+      <div class="show-tabs" role="tablist" id="show-tabs">
+        <button class="show-tab active" data-tab="smart" role="tab">Smart Care</button>
+        <button class="show-tab" data-tab="cleanup" role="tab">Cleanup</button>
+        <button class="show-tab" data-tab="manager" role="tab">Deep Clean</button>
+        <button class="show-tab" data-tab="lens" role="tab">Space Lens</button>
+        <button class="show-tab" data-tab="tools" role="tab">My Tools</button>
+        <button class="show-tab" data-tab="activity" role="tab">My Activity</button>
+      </div>
+
+      <div class="show-stage" id="show-stage">
+        <div class="mac-window">
+          <div class="mac-titlebar"><i></i><i></i><i></i><span>LcinoCare</span></div>
+          <div class="show-screens">
+            <img data-screen="smart" src="assets/screens/smart-landing.png" alt="Smart Care landing with the Scan button" class="active" />
+            <img data-screen="cleanup" src="assets/screens/cleanup-landing.png" alt="Junk Cleanup module landing in green" loading="lazy" decoding="async" />
+            <img data-screen="manager" src="assets/screens/cleanup-manager.png" alt="Cleanup Manager three-pane interface" loading="lazy" decoding="async" />
+            <img data-screen="lens" src="assets/screens/spacelens.png" alt="Space Lens bubble map of the home folder" loading="lazy" decoding="async" />
+            <img data-screen="tools" src="assets/screens/my-tools.png" alt="My Tools grid with nine tools" loading="lazy" decoding="async" />
+            <img data-screen="activity" src="assets/screens/my-activity.png" alt="My Activity health and history page" loading="lazy" decoding="async" />
+          </div>
+        </div>
+
+        <div class="show-caption" id="show-caption">
+          <h3 id="cap-title"></h3>
+          <p id="cap-text"></p>
+          <ul class="cap-list" id="cap-list"></ul>
+        </div>
+      </div>
+
+      <div class="video-slot reveal">
+        <div class="video-frame">
+          <div class="v-scene" aria-hidden="true">
+            <div class="v-mesh"></div>
+            <div class="v-stars"></div>
+            <div class="v-content">
+              <div class="v-window">
+                <div class="v-titlebar"><i></i><i></i><i></i></div>
+                <div class="v-screen">
+                  <svg class="v-pulse" viewBox="0 0 220 60" preserveAspectRatio="none">
+                    <path d="M0 34 H34 l10-16 14 30 12-22 8 10 H106 l10-16 14 30 12-22 8 10 H220" fill="none" stroke="#ff7fdc" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <div class="v-beam"></div>
+                  <div class="v-scan-line"></div>
+                </div>
+              </div>
+              <span class="v-orbit o-a"></span>
+              <span class="v-orbit o-b"></span>
+              <span class="v-orbit o-c"></span>
+              <span class="v-chip-float f-a">🧹 Junk found</span>
+              <span class="v-chip-float f-b">🛡️ Protected</span>
+            </div>
+          </div>
+          <button class="v-play" id="v-play" aria-label="Play product tour">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6.2l10 5.8-10 5.8z" fill="currentColor"/></svg>
+          </button>
+          <div class="v-label"><b>Product tour</b><span id="v-soon">· coming with v1.5</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Features ────────────────────────────────────────── -->
+  <section class="section" id="features">
+    <div class="section-head reveal">
+      <div class="kicker">Features</div>
+      <h2>Everything your Mac needs.<br />Nothing it doesn't.</h2>
+      <p>Ten modules, nine tools, one honest app. No fake warnings, no upsell walls,
+        no "PRO" badges on things you already have.</p>
+    </div>
+
+    <div class="feature-grid">
+      <div class="feature-card reveal">
+        <span class="f-ico" style="--a:#e14ff2;--b:#8b0bd8"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.4" fill="#fff"/><circle cx="12" cy="12" r="3.2" fill="#8b0bd8"/></svg></span>
+        <h3>Smart Care</h3>
+        <p>One scan powers every module. Review exactly what was found, tick what you trust,
+           and run your cleanup in seconds.</p>
+      </div>
+      <div class="feature-card reveal">
+        <span class="f-ico" style="--a:#5ee07a;--b:#1e9e46"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M5.5 7h13M10 7V5.2A1.2 1.2 0 0 1 11.2 4h1.6A1.2 1.2 0 0 1 14 5.2V7m3.5 0l-.8 11.2a2 2 0 0 1-2 1.8H9.3a2 2 0 0 1-2-1.8L6.5 7" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <h3>Junk Cleanup</h3>
+        <p>System junk, mail attachments, and trash bins — each item explained in plain
+           English: what it is, and what happens if you remove it.</p>
+      </div>
+      <div class="feature-card reveal">
+        <span class="f-ico" style="--a:#ff5fb0;--b:#a80b6b"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3.4l7 2.6v5.2c0 4.6-2.9 7.7-7 9.4-4.1-1.7-7-4.8-7-9.4V6z" stroke="#fff" stroke-width="1.9" stroke-linejoin="round"/><path d="M9 11.6l2.2 2.2 4-4.4" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <h3>Protection</h3>
+        <p>No fake antivirus theatre. A hard safety blocklist guards your Keychains,
+           system files, and irreplaceable data — always on, last-second checked.</p>
+      </div>
+      <div class="feature-card reveal">
+        <span class="f-ico" style="--a:#ff9f5a;--b:#e0442a"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M13.4 3.4L5.8 13.6h4.6l-.8 7 7.6-10.2h-4.7z" fill="#fff"/></svg></span>
+        <h3>Performance</h3>
+        <p>Manage login items and background agents, and watch live, honest CPU and
+           memory numbers — with graceful quits, never force-kills.</p>
+      </div>
+      <div class="feature-card reveal">
+        <span class="f-ico" style="--a:#6f97ff;--b:#2440c8"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3.6l6.4 3.7v7.4L12 18.4l-6.4-3.7V7.3z" fill="#fff"/><path d="M9.7 9.7l4.6 4.6m0-4.6l-4.6 4.6" stroke="#2440c8" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+        <h3>Applications</h3>
+        <p>A real uninstaller: real app icons, sizes, install dates — and leftover
+           detection that removes what apps leave behind.</p>
+      </div>
+      <div class="feature-card reveal">
+        <span class="f-ico" style="--a:#3fe0d0;--b:#0b7f8f"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="10" cy="14" r="5.4" stroke="#fff" stroke-width="1.9"/><circle cx="17.5" cy="7.5" r="3" stroke="#fff" stroke-width="1.9"/></svg></span>
+        <h3>Space Lens</h3>
+        <p>See your entire home folder as a living bubble map. Hover, click, and
+           discover exactly where the gigabytes hide.</p>
+      </div>
+      <div class="feature-card reveal">
+        <span class="f-ico" style="--a:#4fd8ea;--b:#128fa8"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="8.5" y="8.5" width="11" height="11" rx="2.6" stroke="#fff" stroke-width="1.9"/><path d="M15.5 4.5h-8a3 3 0 0 0-3 3v8" stroke="#fff" stroke-width="1.9" stroke-linecap="round"/></svg></span>
+        <h3>Duplicates &amp; Large Files</h3>
+        <p>Size-grouping, head-tail hashing, then full SHA-256 — only true duplicates.
+           Plus every file over 10 MB, biggest first.</p>
+      </div>
+      <div class="feature-card reveal">
+        <span class="f-ico" style="--a:#a855f7;--b:#6d28d9"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3.4l8.4 4.3L12 12 3.6 7.7z" fill="#fff"/><path d="M4.4 11.4L12 15.3l7.6-3.9M4.4 15.2L12 19.1l7.6-3.9" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <h3>My Tools &amp; My Activity</h3>
+        <p>Nine focused tools — including Time Machine snapshot cleanup — and a health
+           timeline of everything LcinoCare has ever done for you.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Safety ──────────────────────────────────────────── -->
+  <section class="section section-alt" id="safety">
+    <div class="section-head reveal">
+      <div class="kicker">Safety by design</div>
+      <h2>Powerful on the outside.<br />Careful underneath.</h2>
+      <p>Most cleaners ask for trust. LcinoCare earns it — with an architecture
+         that makes permanent damage structurally hard.</p>
+    </div>
+    <div class="safety-grid">
+      <div class="safety-card reveal">
+        <div class="s-num">01</div>
+        <h3>Trash-only deletion</h3>
+        <p>Cleaning moves everything to the Trash first. Nothing is permanently erased
+           until you explicitly say so — twice.</p>
+      </div>
+      <div class="safety-card reveal">
+        <div class="s-num">02</div>
+        <h3>Hard blocklist</h3>
+        <p>Keychains, Mail data, system databases, and 8 protected zones are locked at
+           the last possible second — inside the delete call itself.</p>
+      </div>
+      <div class="safety-card reveal">
+        <div class="s-num">03</div>
+        <h3>App-quit checks</h3>
+        <p>If an app is holding a folder, LcinoCare notices, asks it to quit gracefully
+           (⌘Q, never kill -9), and re-checks before touching anything.</p>
+      </div>
+      <div class="safety-card reveal">
+        <div class="s-num">04</div>
+        <h3>Zero telemetry</h3>
+        <p>No account, no analytics, no crash reporters, no servers. There is literally
+           nowhere for your data to go — and we like it that way.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Comparison ──────────────────────────────────────── -->
+  <section class="section" id="compare">
+    <div class="section-head reveal">
+      <div class="kicker">Comparison</div>
+      <h2>The honest alternative.</h2>
+      <p>How LcinoCare stacks up against the most popular Mac care apps.</p>
+    </div>
+    <div class="table-wrap reveal">
+      <table class="cmp-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="us">LcinoCare</th>
+            <th>CleanMyMac</th>
+            <th>MacKeeper</th>
+            <th>OnyX</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Price</td><td class="us">Free, forever</td><td>From ~$40 / year</td><td>From ~$10 / month</td><td>Free</td></tr>
+          <tr><td>Subscription required</td><td class="us">No</td><td>Yes</td><td>Yes</td><td>No</td></tr>
+          <tr><td>Account sign-up</td><td class="us">No</td><td>Yes</td><td>Yes</td><td>No</td></tr>
+          <tr><td>Telemetry &amp; tracking</td><td class="us">None at all</td><td>Analytics on</td><td>Historically controversial</td><td>None</td></tr>
+          <tr><td>Open source</td><td class="us">Yes · MIT</td><td>No</td><td>No</td><td>Yes</td></tr>
+          <tr><td>Trash-only safe deletion</td><td class="us">Always</td><td>Optional</td><td>Optional</td><td>— (advanced tool)</td></tr>
+          <tr><td>Every item explained in plain English</td><td class="us">Yes</td><td>Partly</td><td>Partly</td><td>No</td></tr>
+          <tr><td>One-scan Smart Care flow</td><td class="us">✓</td><td>✓</td><td>✓</td><td>— (manual)</td></tr>
+          <tr><td>Health score &amp; activity timeline</td><td class="us">✓</td><td>✓</td><td>—</td><td>—</td></tr>
+          <tr><td>Space lens storage map</td><td class="us">✓</td><td>✓</td><td>—</td><td>—</td></tr>
+          <tr><td>Time Machine snapshot cleanup</td><td class="us">✓</td><td>✓</td><td>—</td><td>—</td></tr>
+          <tr><td>Uninstaller with leftovers</td><td class="us">✓</td><td>✓</td><td>✓</td><td>—</td></tr>
+          <tr><td>Dark &amp; light themes</td><td class="us">✓</td><td>✓</td><td>—</td><td>—</td></tr>
+          <tr><td>Ads &amp; upsell pop-ups</td><td class="us">Never</td><td>Upgrade nudges</td><td>Frequent</td><td>Never</td></tr>
+        </tbody>
+      </table>
+      <p class="table-note">Competitor details from their public websites and pricing pages, October 2026. Prices vary by region and promotions.</p>
+    </div>
+  </section>
+
+  <!-- ── Pricing ─────────────────────────────────────────── -->
+  <section class="section section-alt" id="pricing">
+    <div class="section-head reveal">
+      <div class="kicker">Pricing</div>
+      <h2>Free. Today, tomorrow,<br />forever.</h2>
+      <p>The average Mac cleaner subscription costs $40–120 a year. LcinoCare is
+         an open-source labor of love — so it costs exactly nothing.</p>
+    </div>
+    <div class="pricing-wrap reveal">
+      <div class="price-card main-price">
+        <div class="mp-ribbon">Forever Free</div>
+        <div class="mp-head">
+          <img src="assets/img/logo.svg" alt="" width="40" height="40" />
+          <div class="p-name">LcinoCare</div>
+          <div class="p-price">$0<span>/ forever</span></div>
+          <p class="mp-tag">Every module. Every tool. Every update.<br />No trial. No card. No catch.</p>
+        </div>
+        <ul class="p-list p-list-2">
+          <li>All 10 modules &amp; 9 tools</li>
+          <li>Smart Care one-scan workflow</li>
+          <li>Space Lens storage map</li>
+          <li>Uninstaller with leftovers</li>
+          <li>TM snapshot cleanup</li>
+          <li>Dark &amp; light themes</li>
+        </ul>
+        <a class="btn btn-primary btn-lg btn-block" data-dl href="#">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.3 12.9c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.8-.8-3-.8-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.3 2.9 2.3 1.2 0 1.6-.7 3-.7 1.4 0 1.8.8 3 .7 1.2 0 2-1.1 2.8-2.2.9-1.3 1.3-2.5 1.3-2.6-.1 0-2.5-1-2.5-3.9zM14.1 5.3c.6-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1.1 0 2.2-.6 2.8-1.4z"/></svg>
+          Download for Mac
+        </a>
+        <p class="p-note">macOS 13+ · Apple Silicon · 124 MB · v1.4.0</p>
+      </div>
+      <div class="price-side">
+        <div class="price-card mini">
+          <div class="p-name">CleanMyMac</div>
+          <div class="p-price muted">$40<span>/ year</span></div>
+          <p>Renews annually, forever.</p>
+        </div>
+        <div class="price-card mini">
+          <div class="p-name">MacKeeper</div>
+          <div class="p-price muted">$120<span>/ year</span></div>
+          <p>Billed monthly at ~$10.</p>
+        </div>
+        <div class="save-pill">You save <b>$40–120 / year</b> — with more privacy.</div>
+      </div>
+    </div>
+    <p class="pricing-foot reveal">Coming later: optional cloud-cleanup connectors (iCloud, Drive, Dropbox, OneDrive).
+      They'll always be optional — the Mac app stays free.</p>
+  </section>
+
+  <!-- ── FAQ ─────────────────────────────────────────────── -->
+  <section class="section" id="faq">
+    <div class="section-head reveal">
+      <div class="kicker">FAQ</div>
+      <h2>Questions, answered.</h2>
+    </div>
+    <div class="faq-list reveal">
+      <details open>
+        <summary>Is LcinoCare really free?</summary>
+        <p>Yes — completely. LcinoCare is open source under the MIT license. Every module,
+           every tool, every future update is included. There is no Pro tier hiding behind
+           this download button.</p>
+      </details>
+      <details>
+        <summary>How do I install it?</summary>
+        <p>Download the .dmg, open it, and drag LcinoCare into Applications. On first launch,
+           macOS will note the app isn't from the App Store — right-click it and choose
+           <b>Open</b> once. (Proper notarization is on the roadmap.) The Mac App Store
+           version will arrive later.</p>
+      </details>
+      <details>
+        <summary>Is it safe? What if it deletes something important?</summary>
+        <p>LcinoCare only ever moves items to the Trash — never permanent deletion — until
+           you explicitly empty it. A hard blocklist locks Keychains, Mail data, system
+           databases, and other sensitive zones inside the delete call itself. And every
+           single item is explained: what it is, and what happens if you remove it.</p>
+      </details>
+      <details>
+        <summary>Does LcinoCare collect any data?</summary>
+        <p>No. There is no account, no analytics, no crash reporting, and no server to send
+           anything to. Scan results and history never leave your Mac.</p>
+      </details>
+      <details>
+        <summary>Which Macs are supported?</summary>
+        <p>Any Mac with Apple Silicon (M1, M2, M3, M4) running macOS 13 Ventura or later.
+           The app is a native 124 MB download with no bundled adware.</p>
+      </details>
+      <details>
+        <summary>What's coming next?</summary>
+        <p>Cloud-cleanup connectors (iCloud, Google Drive, Dropbox, OneDrive), notarized
+           builds with auto-update, a menu-bar widget, and scheduled scans — in that order,
+           driven by what users actually ask for.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ── Final CTA ───────────────────────────────────────── -->
+  <section class="final-cta reveal">
+    <div class="cta-panel">
+      <div class="cta-glow" aria-hidden="true"></div>
+      <img src="assets/img/logo.svg" alt="" width="54" height="54" />
+      <h2>Your Mac deserves therapy.</h2>
+      <p>Join the care movement. Free, private, and made with love by LCINO.</p>
+      <a class="btn btn-primary btn-lg" data-dl href="#">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.3 12.9c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.8-.8-3-.8-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.3 2.9 2.3 1.2 0 1.6-.7 3-.7 1.4 0 1.8.8 3 .7 1.2 0 2-1.1 2.8-2.2.9-1.3 1.3-2.5 1.3-2.6-.1 0-2.5-1-2.5-3.9zM14.1 5.3c.6-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1.1 0 2.2-.6 2.8-1.4z"/></svg>
+        Download for Mac
+      </a>
+      <p class="cta-meta">macOS 13+ · Apple Silicon · 124 MB · v1.4.0</p>
+    </div>
+  </section>
+
+  <!-- ── Footer ──────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="foot-brand">
+      <img src="assets/img/logo.svg" alt="" width="22" height="22" />
+      <span>Lcino<b>Care</b></span>
+    </div>
+    <p class="foot-tag">Therapy for your Mac.</p>
+    <nav class="foot-links">
+      <a href="https://lcino.com" target="_blank" rel="noopener">LCINO</a>
+      <a href="https://github.com/lcino/lcinocare" target="_blank" rel="noopener">GitHub</a>
+      <a data-dl href="#">Download .dmg</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <p class="foot-fine">© 2026 LCINO · Open source under the MIT license · Built with love, not subscriptions.<br />
+      Mac and macOS are trademarks of Apple Inc. LcinoCare is an independent product and is not affiliated with Apple,
+      CleanMyMac (MacPaw), MacKeeper, or OnyX.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
