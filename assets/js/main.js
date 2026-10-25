@@ -4,11 +4,10 @@
    and scroll-reveal. No dependencies. */
 
 // ── download config ─────────────────────────────────────────────────────
-// TODO(deploy): point this at the real GitHub Releases asset once the repo
-// is public. Pattern:
-//   https://github.com/lcino/lcinocare/releases/latest/download/LcinoCare-arm64.dmg
+// Live: GitHub Releases hosts the .dmg; "latest/download" always serves
+// the newest version under a stable filename.
 // Future Mac App Store link slot: const MAS_URL = 'https://apps.apple.com/…';
-const DOWNLOAD_URL = 'https://github.com/lcino/lcinocare/releases/latest/download/LcinoCare-arm64.dmg';
+const DOWNLOAD_URL = 'https://github.com/LCINO/lcinocare/releases/latest/download/LcinoCare-arm64.dmg';
 
 document.querySelectorAll('[data-dl]').forEach((a) => {
   a.href = DOWNLOAD_URL;
