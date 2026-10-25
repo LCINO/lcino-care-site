@@ -4,7 +4,7 @@
   "name": "lcino-care-site",
   "compatibility_date": "2026-10-25",
   "assets": {
-    // serve the whole repo root as static assets (index.html lives here)
-    "directory": "./"
+    // only the public/ folder is served — keeps .git and configs out
+    "directory": "./public"
   }
 }
