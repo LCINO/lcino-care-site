@@ -1,0 +1,10 @@
+{
+  // LcinoCare landing site — deployed as a Cloudflare Worker with static assets.
+  // Workers Builds runs `npx wrangler deploy` on every push to main.
+  "name": "lcino-care-site",
+  "compatibility_date": "2026-10-25",
+  "assets": {
+    // serve the whole repo root as static assets (index.html lives here)
+    "directory": "./"
+  }
+}
